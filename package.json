@@ -1,0 +1,10 @@
+{
+  "name": "com.noMBavailable.PaardenRace",
+  "version": "1.0.0",
+  "displayName": "My Game Package",
+  "description": "A Unity game packaged for easy download",
+  "unity": "2021.3",
+  "author": {
+    "name": "Marc"
+  }
+}
