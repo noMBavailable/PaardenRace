@@ -72,11 +72,11 @@ mono_crash.*
 # Builds
 *.apk
 *.aab
-*.unitypackage
+#*.unitypackage
 # Allow this specific folder
-!Assets/MyUnityPackage/
-!Assets/MyUnityPackage/*.unitypackage
-*.unitypackage.meta
+#!Assets/MyUnityPackage/
+#!Assets/MyUnityPackage/*.unitypackage
+#*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
