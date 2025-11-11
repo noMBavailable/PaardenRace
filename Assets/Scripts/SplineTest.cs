@@ -25,7 +25,7 @@ public class SplineTest : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        activateSpline = FindObjectOfType<ActivateSpline>();
+        activateSpline = Object.FindFirstObjectByType<ActivateSpline>();
     }
 
     // Update is called once per frame

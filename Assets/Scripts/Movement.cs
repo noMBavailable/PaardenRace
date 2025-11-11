@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-        activateSpline = FindObjectOfType<ActivateSpline>();
+        activateSpline = Object.FindFirstObjectByType<ActivateSpline>();
     }
 
     void Update()

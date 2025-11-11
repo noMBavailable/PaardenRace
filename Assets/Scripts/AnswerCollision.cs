@@ -30,4 +30,21 @@ public class AnswerCollision : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (checkAnswer.IsCorrect(Answer))
+            {
+                Debug.Log("Correct answer!");
+                objectRenderer.material.color = Color.green;
+            }
+            else
+            {
+                Debug.Log("Wrong answer!");
+                objectRenderer.material.color = Color.red;
+            }
+        }
+    }
 }
